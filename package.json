@@ -6,9 +6,21 @@
   "scripts": {
     "start": "node src/main.js"
   },
-  "author": "",
+  "author": "Nicolle",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.3"
+    "cors": "^2.8.5",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "express": "^4.18.3",
+    "morgan": "^1.10.0",
+    "swagger-jsdoc": "^6.2.8"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint-plugin-custom-rules": "^0.0.0",
+    "nodemon": "^3.1.0",
+    "swagger-ui-express": "^5.0.0"
   }
 }
