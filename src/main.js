@@ -12,6 +12,9 @@ app.use(express.json());
 // Simulación de una base de datos de posts
 let posts = [];
 
+//const swaggerJsdoc = require('swagger-jsdoc')
+//const swaggerUi = require('swagger-ui-express')
+
 // Configuración de Swagger
 const options = {
   definition: {
