@@ -22,7 +22,7 @@ const options = {
       description: 'Una API para administrar posts',
     },
   },
-  apis: ['./routes/*.js'], // Ruta donde se encuentran tus archivos de definición de rutas
+  apis: ['./src/*.js'], // Ruta donde se encuentran tus archivos de definición de rutas
 };
 
 const swaggerSpec = swaggerJsdoc(options);
