@@ -2,11 +2,11 @@
 FROM mysql:latest
 
 # Set environment variables for MySQL
-ENV MYSQL_DATABASE=tamagotchi_db
+ENV MYSQL_DATABASE=blog_nicolle
 ENV MYSQL_ROOT_PASSWORD=root_password
 # Optionally, define the default user and password (if needed)
-ENV MYSQL_USER=blog_user
-ENV MYSQL_PASSWORD=blog_password
+ENV MYSQL_USER=Nicolle
+ENV MYSQL_PASSWORD=nicolle
 
 # Add your schema SQL script to the docker-entrypoint-initdb.d directory
 COPY schema.sql /docker-entrypoint-initdb.d/
