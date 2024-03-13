@@ -22,6 +22,10 @@ app.use(express.json())
 // Simulación de una base de datos de posts
 let posts = []
 
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
 //const swaggerJsdoc = require('swagger-jsdoc')
 //const swaggerUi = require('swagger-ui-express')
 
